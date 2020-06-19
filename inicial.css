@@ -45,11 +45,12 @@ nav ul li a{
     border-radius: 3px;
 }
 
-@media (max-width:952px)
-    label.logo{
+@media (max-width:952px){
+    #logo {
         font-size:30px;
         padding-left:50px;
     }
+}
 nav :hover{
     color: red;
 }
@@ -100,3 +101,4 @@ html {
     padding: 50px;
     float: left;
   }
+  
