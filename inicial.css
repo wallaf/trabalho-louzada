@@ -1,0 +1,102 @@
+*{ 
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body {
+    background-image: url(fundobolo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: none;
+    background-color: black;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+nav { 
+    background: #00BFFF;
+    height: 80px;
+    width: 100%;
+}
+label#logo {
+    color:white;
+    font-size:35px;
+    line-height:80px;
+    padding: 0 100px;
+    font-weight: bold;
+    
+}
+nav ul{
+    float:right;
+    margin-right:20px
+}
+nav ul li{
+    display:inline-block;
+    line-height:80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color:white;
+    font-size:17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+@media (max-width:952px)
+    label.logo{
+        font-size:30px;
+        padding-left:50px;
+    }
+nav :hover{
+    color: red;
+}
+.logo img{
+    position:absolute;
+    width: 80px;
+    height: 80px;
+}
+
+.cardapio{
+    display: flex;
+    height:300px ;
+    width:400px ;
+    padding: 10px;
+    text-align: center;
+    align-items: stretch;
+    padding-left: 20px;
+}
+h2{
+    color: black;
+}
+
+#item{
+    background: #E8E8E8;
+    margin: 10px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    height:250px;
+
+}
+.tudo{padding: 100px;
+    float: left;
+}
+
+html {
+    height: 100%;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  h3{
+      color: red;
+  }
+
+  .col-10 {
+    padding: 50px;
+    float: left;
+  }
